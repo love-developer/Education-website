@@ -1,413 +1,559 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Alumni - College Bootstrap Template</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Alumni - College Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: College
   * Template URL: https://bootstrapmade.com/college-bootstrap-education-template/
   * Updated: Jun 19 2025 with Bootstrap v5.3.6
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  </head>
 
-<body class="alumni-page">
+  <body class="alumni-page">
+    <header id="header" class="header d-flex align-items-center sticky-top">
+      <div
+        class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-end"
+      >
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.webp" alt=""> -->
+          <h1 class="sitename">Developer Janu</h1>
+        </a>
 
-  <header id="header" class="header d-flex align-items-center sticky-top">
-    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-end">
-
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.webp" alt=""> -->
-        <h1 class="sitename">College</h1>
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li class="dropdown"><a href="about.html"><span>About</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="admissions.html">Admissions</a></li>
-              <li><a href="academics.html">Academics</a></li>
-              <li><a href="faculty-staff.html">Faculty &amp; Staff</a></li>
-              <li><a href="campus-facilities.html">Campus &amp; Facilities</a></li>
-            </ul>
-          </li>
-
-          <li><a href="students-life.html">Students Life</a></li>
-          <li><a href="news.html">News</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="alumni.html" class="active">Alumni</a></li>
-          <li class="dropdown"><a href="#"><span>More Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="news-details.html">News Details</a></li>
-              <li><a href="event-details.html">Event Details</a></li>
-              <li><a href="privacy.html">Privacy</a></li>
-              <li><a href="terms-of-service.html">Terms of Service</a></li>
-              <li><a href="404.html">Error 404</a></li>
-              <li><a href="starter-page.html">Starter Page</a></li>
-            </ul>
-          </li>
-
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-    </div>
-  </header>
-
-  <main class="main">
-
-    <!-- Page Title -->
-    <div class="page-title light-background">
-      <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Alumni</h1>
-        <nav class="breadcrumbs">
-          <ol>
+        <nav id="navmenu" class="navmenu">
+          <ul>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Alumni</li>
-          </ol>
+            <li class="dropdown">
+              <a href="about.html"
+                ><span>About</span>
+                <i class="bi bi-chevron-down toggle-dropdown"></i
+              ></a>
+              <ul>
+                <li><a href="about.html">My Story</a></li>
+                <li><a href="admissions.html">Work Process</a></li>
+                <li><a href="academics.html">Skills & Tech Stack</a></li>
+                <li><a href="faculty-staff.html">Collaborations</a></li>
+                <li><a href="campus-facilities.html">Tools & Workflow</a></li>
+              </ul>
+            </li>
+
+            <li><a href="students-life.html">Projects</a></li>
+            <li><a href="news.html">Case Studies</a></li>
+            <li><a href="events.html">Workshops</a></li>
+            <li><a href="alumni.html" class="active">Clients</a></li>
+            <li class="dropdown">
+              <a href="#"
+                ><span>Extras</span>
+                <i class="bi bi-chevron-down toggle-dropdown"></i
+              ></a>
+              <ul>
+                <li><a href="news-details.html">Testimonial Details</a></li>
+                <li><a href="event-details.html">Workshop Details</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+                <li><a href="terms-of-service.html">Terms of Service</a></li>
+                <li><a href="404.html">404 Error</a></li>
+                <li><a href="starter-page.html">Blank Starter Page</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#"
+                ><span>Resources</span>
+                <i class="bi bi-chevron-down toggle-dropdown"></i
+              ></a>
+              <ul>
+                <li><a href="#">Code Snippets</a></li>
+                <li class="dropdown">
+                  <a href="#"
+                    ><span>UI Libraries</span>
+                    <i class="bi bi-chevron-down toggle-dropdown"></i
+                  ></a>
+                  <ul>
+                    <li><a href="#">React Components</a></li>
+                    <li><a href="#">Tailwind Blocks</a></li>
+                    <li><a href="#">Next.js Patterns</a></li>
+                    <li><a href="#">Shopify Snippets</a></li>
+                    <li><a href="#">WordPress Tricks</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Templates</a></li>
+                <li><a href="#">Docs</a></li>
+                <li><a href="#">Dev Tools</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
       </div>
-    </div><!-- End Page Title -->
+    </header>
 
-    <!-- Alumni Section -->
-    <section id="alumni" class="alumni section">
+    <main class="main">
+      <!-- Page Title -->
+      <div class="page-title light-background">
+        <div
+          class="container d-lg-flex justify-content-between align-items-center"
+        >
+          <h1 class="mb-2 mb-lg-0">Developer Janu</h1>
+          <nav class="breadcrumbs">
+            <ol>
+              <li><a href="index.html">Home</a></li>
+              <li class="current">Developer Janu</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+      <!-- End Page Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row mb-5">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="alumni-intro">
-              <h2>Our Alumni Network</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.</p>
-              <div class="alumni-stats d-flex flex-wrap">
-                <div class="stat-item">
-                  <span class="stat-number">25k+</span>
-                  <span class="stat-label">Alumni Worldwide</span>
-                </div>
-                <div class="stat-item">
-                  <span class="stat-number">118</span>
-                  <span class="stat-label">Countries</span>
-                </div>
-                <div class="stat-item">
-                  <span class="stat-number">65+</span>
-                  <span class="stat-label">Years of Excellence</span>
+      <!-- Alumni Section -->
+      <section id="alumni" class="alumni section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row mb-5">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="alumni-intro">
+                <h2>My Developer Journey</h2>
+                <p>
+                  With over 3+ years of hands-on experience and 600+ web
+                  projects completed, I've helped 50+ global clients bring their
+                  digital visions to life. Specializing in Shopify, React.js,
+                  Next.js, WordPress, and modern frontend stacks, my work is
+                  driven by precision, performance, and clean code.
+                </p>
+                <div class="alumni-stats d-flex flex-wrap">
+                  <div class="stat-item">
+                    <span class="stat-number">600+</span>
+                    <span class="stat-label">Web Projects</span>
+                  </div>
+                  <div class="stat-item">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Happy Clients</span>
+                  </div>
+                  <div class="stat-item">
+                    <span class="stat-number">3+</span>
+                    <span class="stat-label">Years Experience</span>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="alumni-image">
-              <img src="assets/img/education/campus-8.webp" alt="Alumni gathering" class="img-fluid rounded">
-            </div>
-          </div>
-        </div>
-
-        <div class="row mb-5">
-          <div class="col-12 text-center mb-4" data-aos="fade-up" data-aos-delay="200">
-            <h3>Success Stories</h3>
-            <p class="lead">Meet some of our distinguished alumni making a difference around the world</p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="alumni-card">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
               <div class="alumni-image">
-                <img src="assets/img/person/person-m-4.webp" alt="Alumni" class="img-fluid">
-              </div>
-              <div class="alumni-content">
-                <h4>Dr. Michael Roberts</h4>
-                <p class="alumni-class">Class of 2007</p>
-                <p class="alumni-position">Chief Medical Officer, Global Health Initiative</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed tempus justo ac magna auctor, vel volutpat nisl mollis.</p>
-                <a href="#" class="read-more">Read full story <i class="bi bi-arrow-right"></i></a>
+                <img
+                  src="assets/img/education/campus-8.webp"
+                  alt="Alumni gathering"
+                  class="img-fluid rounded"
+                />
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
-            <div class="alumni-card">
-              <div class="alumni-image">
-                <img src="assets/img/person/person-f-6.webp" alt="Alumni" class="img-fluid">
-              </div>
-              <div class="alumni-content">
-                <h4>Sarah Chen, Ph.D.</h4>
-                <p class="alumni-class">Class of 2010</p>
-                <p class="alumni-position">Senior Researcher at NASA</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed tempus justo ac magna auctor, vel volutpat nisl mollis et pulvinar dapibus leo.</p>
-                <a href="#" class="read-more">Read full story <i class="bi bi-arrow-right"></i></a>
-              </div>
+          <div class="row mb-5">
+            <div
+              class="col-12 text-center mb-4"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <h3>Client Testimonials</h3>
+              <p class="lead">
+                What clients say after working with me on Shopify, React,
+                WordPress & more
+              </p>
             </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="500">
-            <div class="alumni-card">
-              <div class="alumni-image">
-                <img src="assets/img/person/person-m-9.webp" alt="Alumni" class="img-fluid">
-              </div>
-              <div class="alumni-content">
-                <h4>James Wilson</h4>
-                <p class="alumni-class">Class of 2012</p>
-                <p class="alumni-position">Founder &amp; CEO, GreenTech Solutions</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed tempus justo ac magna auctor, vel volutpat nisl mollis et pulvinar.</p>
-                <a href="#" class="read-more">Read full story <i class="bi bi-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 text-center mt-3" data-aos="fade-up" data-aos-delay="600">
-            <a href="#" class="btn btn-primary">View More Success Stories</a>
-          </div>
-        </div>
-
-        <div class="row mb-5 alumni-events-section">
-          <div class="col-12 mb-4 text-center" data-aos="fade-up" data-aos-delay="200">
-            <h3>Upcoming Alumni Events</h3>
-            <p class="lead">Connect with fellow graduates at these exciting events</p>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="event-card">
-              <div class="event-date">
-                <span class="event-day">15</span>
-                <span class="event-month">MAR</span>
-              </div>
-              <div class="event-details">
-                <h4>Annual Alumni Reunion</h4>
-                <p><i class="bi bi-geo-alt"></i> Main Campus, Grand Hall</p>
-                <p><i class="bi bi-clock"></i> 6:00 PM - 10:00 PM</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. In hac habitasse platea dictumst.</p>
-                <a href="#" class="btn btn-outline-primary">Register Now</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="event-card">
-              <div class="event-date">
-                <span class="event-day">22</span>
-                <span class="event-month">APR</span>
-              </div>
-              <div class="event-details">
-                <h4>Career Networking Night</h4>
-                <p><i class="bi bi-geo-alt"></i> Downtown Convention Center</p>
-                <p><i class="bi bi-clock"></i> 7:00 PM - 9:30 PM</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. In hac habitasse platea dictumst. Mauris eu risus sed.</p>
-                <a href="#" class="btn btn-outline-primary">Register Now</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 text-center mt-4" data-aos="fade-up" data-aos-delay="500">
-            <a href="#" class="btn btn-link">View All Events <i class="bi bi-calendar-check"></i></a>
-          </div>
-        </div>
-
-        <div class="row get-involved-section">
-          <div class="col-12 text-center mb-4" data-aos="fade-up" data-aos-delay="200">
-            <h3>Get Involved</h3>
-            <p class="lead">Ways to stay connected and give back to your alma mater</p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="involvement-card">
-              <div class="involvement-icon">
-                <i class="bi bi-hand-thumbs-up"></i>
-              </div>
-              <h4>Mentor a Student</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed nec justo ac magna auctor, vel volutpat nisl mollis.</p>
-              <a href="#" class="btn btn-sm btn-outline-primary mt-2">Learn More</a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
-            <div class="involvement-card">
-              <div class="involvement-icon">
-                <i class="bi bi-award"></i>
-              </div>
-              <h4>Scholarship Fund</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed nec justo ac magna auctor, vel volutpat nisl mollis.</p>
-              <a href="#" class="btn btn-sm btn-outline-primary mt-2">Donate Now</a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="500">
-            <div class="involvement-card">
-              <div class="involvement-icon">
-                <i class="bi bi-people"></i>
-              </div>
-              <h4>Alumni Association</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed nec justo ac magna auctor, vel volutpat nisl mollis.</p>
-              <a href="#" class="btn btn-sm btn-outline-primary mt-2">Join Today</a>
-            </div>
-          </div>
-
-          <div class="col-12 mt-4" data-aos="fade-up" data-aos-delay="600">
-            <div class="donation-banner">
-              <div class="row align-items-center">
-                <div class="col-lg-8 mb-3 mb-lg-0">
-                  <h3>Support the Future Generation</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Aenean sollicitudin, lorem quis bibendum auctor.</p>
+            <div
+              class="col-lg-4 col-md-6 mb-4"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="alumni-card">
+                <div class="alumni-image">
+                  <img
+                    src="assets/img/person/person-m-4.webp"
+                    alt="Client"
+                    class="img-fluid"
+                  />
                 </div>
-                <div class="col-lg-4 text-lg-end">
-                  <a href="#" class="btn btn-primary btn-lg">Make a Donation</a>
+                <div class="alumni-content">
+                  <h4>Jonathan M.</h4>
+                  <p class="alumni-class">Shopify Client – USA</p>
+                  <p class="alumni-position">Ecommerce Business Owner</p>
+                  <p>
+                    Love delivered a high-converting Shopify store exactly how I
+                    envisioned it — clean, fast, pixel-perfect. Highly
+                    recommend!
+                  </p>
+                  <a href="#" class="read-more"
+                    >Read full story <i class="bi bi-arrow-right"></i
+                  ></a>
                 </div>
               </div>
             </div>
+
+            <div
+              class="col-lg-4 col-md-6 mb-4"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="alumni-card">
+                <div class="alumni-image">
+                  <img
+                    src="assets/img/person/person-f-6.webp"
+                    alt="Client"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="alumni-content">
+                  <h4>Amanda S.</h4>
+                  <p class="alumni-class">Next.js Project – UK</p>
+                  <p class="alumni-position">Marketing Strategist</p>
+                  <p>
+                    Professional, responsive, and delivered exactly what was
+                    promised. My web app built in Next.js performs brilliantly.
+                  </p>
+                  <a href="#" class="read-more"
+                    >Read full story <i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 mb-4"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <div class="alumni-card">
+                <div class="alumni-image">
+                  <img
+                    src="assets/img/person/person-m-9.webp"
+                    alt="Client"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="alumni-content">
+                  <h4>David K.</h4>
+                  <p class="alumni-class">WordPress Site – Canada</p>
+                  <p class="alumni-position">Creative Director</p>
+                  <p>
+                    I hired Love for a custom WordPress site. Delivered ahead of
+                    schedule with clean animations and speed optimization. Will
+                    hire again!
+                  </p>
+                  <a href="#" class="read-more"
+                    >Read full story <i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-12 text-center mt-3"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <a href="#" class="btn btn-primary">View More Testimonials</a>
+            </div>
+          </div>
+
+          <div class="row mb-5 alumni-events-section">
+            <div
+              class="col-12 mb-4 text-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <h3>Live Events & Webinars</h3>
+              <p class="lead">
+                Join my upcoming sessions on Shopify themes, React UI, and
+                client success
+              </p>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="event-card">
+                <div class="event-date">
+                  <span class="event-day">18</span>
+                  <span class="event-month">JUL</span>
+                </div>
+                <div class="event-details">
+                  <h4>Mastering Shopify Sections</h4>
+                  <p><i class="bi bi-geo-alt"></i> Live via Zoom</p>
+                  <p><i class="bi bi-clock"></i> 7:00 PM - 8:30 PM (PKT)</p>
+                  <p>
+                    Learn how to build custom dynamic Shopify sections using
+                    Liquid, schema, and modern frontend styling with Tailwind.
+                  </p>
+                  <a href="#" class="btn btn-outline-primary">Register Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="event-card">
+                <div class="event-date">
+                  <span class="event-day">29</span>
+                  <span class="event-month">JUL</span>
+                </div>
+                <div class="event-details">
+                  <h4>Frontend Freelancing Tips</h4>
+                  <p><i class="bi bi-geo-alt"></i> YouTube Live</p>
+                  <p><i class="bi bi-clock"></i> 6:00 PM - 7:00 PM (PKT)</p>
+                  <p>
+                    From Fiverr strategies to React component demos — join me
+                    for a freelance Q&A and frontend demo walkthrough.
+                  </p>
+                  <a href="#" class="btn btn-outline-primary">Register Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-12 text-center mt-4"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <a href="#" class="btn btn-link"
+                >View All Events <i class="bi bi-calendar-check"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="row get-involved-section">
+            <div
+              class="col-12 text-center mb-4"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <h3>Let’s Work Together</h3>
+              <p class="lead">
+                Here's how I collaborate with brands and developers worldwide
+              </p>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 mb-4"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="involvement-card">
+                <div class="involvement-icon">
+                  <i class="bi bi-hand-thumbs-up"></i>
+                </div>
+                <h4>1-on-1 Mentorship</h4>
+                <p>
+                  I mentor developers on Shopify sections, React logic, and UI
+                  design using real-world projects and code walkthroughs.
+                </p>
+                <a href="#" class="btn btn-sm btn-outline-primary mt-2"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 mb-4"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="involvement-card">
+                <div class="involvement-icon">
+                  <i class="bi bi-award"></i>
+                </div>
+                <h4>Client Projects</h4>
+                <p>
+                  Whether you're a startup or enterprise, I build fast, modern,
+                  responsive websites that convert and scale with ease.
+                </p>
+                <a href="#" class="btn btn-sm btn-outline-primary mt-2"
+                  >Hire Me</a
+                >
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 mb-4"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <div class="involvement-card">
+                <div class="involvement-icon">
+                  <i class="bi bi-people"></i>
+                </div>
+                <h4>Team Collaboration</h4>
+                <p>
+                  Working with agencies and dev teams to deliver frontend
+                  builds, performance audits, and bug fixes on tight deadlines.
+                </p>
+                <a href="#" class="btn btn-sm btn-outline-primary mt-2"
+                  >Let’s Connect</a
+                >
+              </div>
+            </div>
+
+            <div class="col-12 mt-4" data-aos="fade-up" data-aos-delay="600">
+              <div class="donation-banner">
+                <div class="row align-items-center">
+                  <div class="col-lg-8 mb-3 mb-lg-0">
+                    <h3>Support My Developer Journey</h3>
+                    <p>
+                      If you've found my work valuable or want to see more
+                      open-source tools, tutorials, and templates — you can
+                      support the journey here.
+                    </p>
+                  </div>
+                  <div class="col-lg-4 text-lg-end">
+                    <a href="#" class="btn btn-primary btn-lg"
+                      >Buy Me a Coffee</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+      </section>
+      <!-- /Alumni Section -->
+    </main>
 
+    <footer id="footer" class="footer position-relative light-background">
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">Love Kumar</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>Lahore, Pakistan</p>
+              <p>Working with Clients Worldwide</p>
+              <p class="mt-3">
+                <strong>Phone:</strong> <span>+92 300 1234567</span>
+              </p>
+              <p>
+                <strong>Email:</strong> <span>developerjanu@gmail.com</span>
+              </p>
+            </div>
+            <div class="social-links d-flex mt-4">
+              <a href="#"><i class="bi bi-twitter-x"></i></a>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Me</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>My Services</h4>
+            <ul>
+              <li><a href="#">Shopify Development</a></li>
+              <li><a href="#">React & Next.js Apps</a></li>
+              <li><a href="#">WordPress Sites</a></li>
+              <li><a href="#">Frontend UI Design</a></li>
+              <li><a href="#">Speed Optimization</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Tech Stack</h4>
+            <ul>
+              <li><a href="#">HTML / CSS / JS</a></li>
+              <li><a href="#">Tailwind & Bootstrap</a></li>
+              <li><a href="#">React / Next.js</a></li>
+              <li><a href="#">Liquid / Shopify</a></li>
+              <li><a href="#">Firebase / Git</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Connect</h4>
+            <ul>
+              <li><a href="#">Fiverr Profile</a></li>
+              <li><a href="#">LinkedIn</a></li>
+              <li><a href="#">GitHub</a></li>
+              <li><a href="#">Email Me</a></li>
+              <li><a href="#">Contact Page</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
 
-    </section><!-- /Alumni Section -->
-
-  </main>
-
-  <footer id="footer" class="footer position-relative light-background">
-
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">College</span>
-          </a>
-          <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
-          </div>
-          <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Hic solutasetp</h4>
-          <ul>
-            <li><a href="#">Molestiae accusamus iure</a></li>
-            <li><a href="#">Excepturi dignissimos</a></li>
-            <li><a href="#">Suscipit distinctio</a></li>
-            <li><a href="#">Dilecta</a></li>
-            <li><a href="#">Sit quas consectetur</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Nobis illum</h4>
-          <ul>
-            <li><a href="#">Ipsam</a></li>
-            <li><a href="#">Laudantium dolorum</a></li>
-            <li><a href="#">Dinera</a></li>
-            <li><a href="#">Trodelas</a></li>
-            <li><a href="#">Flexo</a></li>
-          </ul>
-        </div>
-
+      <div class="container copyright text-center mt-4">
+        <p>
+          © <span>Copyright</span>
+          <strong class="px-1 sitename">Love Kumar</strong>
+          <span>All Rights Reserved</span>
+        </p>
+        <div class="credits">Designed by <a href="#">Developer Janu</a></div>
       </div>
-    </div>
+    </footer>
 
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">MyWebsite</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  </footer>
+    <!-- Preloader -->
+    <div id="preloader"></div>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

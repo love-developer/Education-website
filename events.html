@@ -37,83 +37,89 @@
 </head>
 
 <body class="events-page">
+<header id="header" class="header d-flex align-items-center sticky-top">
+  <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-end">
 
-  <header id="header" class="header d-flex align-items-center sticky-top">
-    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-end">
+    <a href="index.html" class="logo d-flex align-items-center me-auto">
+      <!-- <img src="assets/img/logo.webp" alt=""> -->
+      <h1 class="sitename">Developer Janu</h1>
+    </a>
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.webp" alt=""> -->
-        <h1 class="sitename">College</h1>
-      </a>
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li class="dropdown"><a href="about.html"><span>About</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="admissions.html">Admissions</a></li>
-              <li><a href="academics.html">Academics</a></li>
-              <li><a href="faculty-staff.html">Faculty &amp; Staff</a></li>
-              <li><a href="campus-facilities.html">Campus &amp; Facilities</a></li>
-            </ul>
-          </li>
+        <li class="dropdown">
+          <a href="about.html"><span>About Me</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul>
+            <li><a href="about.html">Who I Am</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+          </ul>
+        </li>
 
-          <li><a href="students-life.html">Students Life</a></li>
-          <li><a href="news.html">News</a></li>
-          <li><a href="events.html" class="active">Events</a></li>
-          <li><a href="alumni.html">Alumni</a></li>
-          <li class="dropdown"><a href="#"><span>More Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="news-details.html">News Details</a></li>
-              <li><a href="event-details.html">Event Details</a></li>
-              <li><a href="privacy.html">Privacy</a></li>
-              <li><a href="terms-of-service.html">Terms of Service</a></li>
-              <li><a href="404.html">Error 404</a></li>
-              <li><a href="starter-page.html">Starter Page</a></li>
-            </ul>
-          </li>
+        <li><a href="portfolio.html">Projects</a></li>
+        <li><a href="blogs.html">Blog</a></li>
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="clients.html">Clients</a></li>
 
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
+        <li class="dropdown">
+          <a href="#"><span>Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul>
+            <li><a href="project-details.html">Project Details</a></li>
+            <li><a href="service-details.html">Service Details</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms-of-service.html">Terms & Conditions</a></li>
+            <li><a href="404.html">404 Page</a></li>
+            <li><a href="starter-page.html">Blank Starter Page</a></li>
+          </ul>
+        </li>
 
-    </div>
-  </header>
+        <li class="dropdown">
+          <a href="#"><span>More</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul>
+            <li><a href="#">GitHub</a></li>
+            <li class="dropdown">
+              <a href="#"><span>Social Links</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">YouTube</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Site Map</a></li>
+          </ul>
+        </li>
+
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+    </nav>
+
+  </div>
+</header>
+
 
   <main class="main">
+<!-- Page Title -->
+<div class="page-title light-background">
+  <div class="container d-lg-flex justify-content-between align-items-center">
+    <h1 class="mb-2 mb-lg-0">My Activities</h1>
+    <nav class="breadcrumbs">
+      <ol>
+        <li><a href="index.html">Home</a></li>
+        <li class="current">My Activities</li>
+      </ol>
+    </nav>
+  </div>
+</div><!-- End Page Title -->
 
-    <!-- Page Title -->
-    <div class="page-title light-background">
-      <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Events</h1>
-        <nav class="breadcrumbs">
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Events</li>
-          </ol>
-        </nav>
-      </div>
-    </div><!-- End Page Title -->
 
     <!-- Events Extended Section -->
     <section id="events-extended" class="events-extended section">
